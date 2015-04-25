@@ -1,0 +1,8 @@
+<h1>Editing Sticky Note</h1>
+
+<%= form_for @sticky_note, method: :post do |f| %>
+  <%= render 'form_fields', f: f %>
+<% end %>
+
+<%= link_to 'Show', @sticky_note %> |
+<%= link_to 'Back', sticky_notes_path %>

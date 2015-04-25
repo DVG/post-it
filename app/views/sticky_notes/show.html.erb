@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @sticky_note.content %>
+</p>
+
+<%= link_to 'Edit', edit_sticky_note_path(@sticky_note) %> |
+<%= link_to 'Back', sticky_notes_path %>
